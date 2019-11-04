@@ -2,9 +2,17 @@
 // Created by Dzmitry Korshakevich on 21.10.2019.
 //
 
+#include <iostream>
 #include "specialmatrix.h"
 
-SpecialMatrix::SpecialMatrix(size_t n, bool random) : Matrix(n, random) {}
+SpecialMatrix::SpecialMatrix(size_t n, bool random)
+    : Matrix(n, random) {
+  for (size_t i = 0; i < data_.size(); i++) {
+    for (size_t j = i + 2; j < data_.size(); j++) {
+      data_[i][j] = 0;
+    }
+  }
+}
 
 void SpecialMatrix::Inverse(bool fast) {
   // Вектор, в котором для каждой строки мы храним позицию, до которой
@@ -51,11 +59,11 @@ void SpecialMatrix::Inverse(bool fast) {
         double coefficient = data_[j][i] / data_[i][i];
 
         data_[j][i] = 0;
-        for (size_t k = i + 1; k <= max_len[j]; k++) {
+        for (size_t k = i + 1; k <= max_len[i]; k++) {
           data_[j][k] -= data_[i][k] * coefficient;
         }
 
-        for (size_t k = 0; k <= max_len[j]; k++) {
+        for (size_t k = 0; k <= max_len[i]; k++) {
           answer[j][k] -= answer[i][k] * coefficient;
         }
       }
@@ -63,7 +71,7 @@ void SpecialMatrix::Inverse(bool fast) {
   }
 
   for (size_t i = data_.size() - 1; i >= 1; i--) {
-    for (size_t j = 0; j < i; j++) {
+    for (int j = static_cast<int>(i - 1); j >= 0 && max_len[j] >= i; j--) {
       if (std::abs(data_[j][i]) > kEps) {
         double coefficient = data_[j][i] / data_[i][i];
         data_[j][j] -= data_[i][j] * coefficient;

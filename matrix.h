@@ -21,6 +21,7 @@ class Matrix {
 
   virtual std::istream& Read(std::istream& in);
   virtual std::ostream& Write(std::ostream& out) const;
+  virtual std::ostream& GenerateLaTeX(std::ostream& out) const;
 
   Matrix& operator*=(const Matrix& rhs);
   std::vector<double>& operator[](size_t index);

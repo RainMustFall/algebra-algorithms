@@ -9,9 +9,9 @@
 Matrix::Matrix(size_t n, bool random)
     : data_(matrix(n, std::vector<double>(n, 0))) {
   if (random) {
-    for (size_t i = 0; i < n; i++) {
-      for (size_t j = 0; j < std::min(i + 2, n); j++) {
-        data_[i][j] = rand() % 100;
+    for (auto& line : data_) {
+      for (double& element : line) {
+        element = rand();
       }
     }
   }
@@ -45,6 +45,22 @@ std::ostream& Matrix::Write(std::ostream& out) const {
   return out;
 }
 
+std::ostream& Matrix::GenerateLaTeX(std::ostream& out) const {
+  out << "\\begin{bmatrix}\n";
+  for (const auto& row : data_) {
+    for (size_t i = 0; i < row.size(); i++) {
+      out << std::setprecision(10) << row[i] << " ";
+      if (i + 1 != row.size()) {
+        out << "& ";
+      } else {
+        out << "\\\\\n";
+      }
+    }
+  }
+  out << "\\end{bmatrix}\n";
+  return out;
+}
+
 Matrix& Matrix::operator*=(const Matrix& rhs) {
   matrix answer(data_.size(), std::vector<double>(data_.size(), 0));
 
@@ -69,7 +85,6 @@ LUDecomposition Matrix::GetLU() const {
     P[i] = i;
   }
 
-  auto a = clock();
   for (size_t i = 0; i < result.data_.size(); i++) {
     size_t best_index = i;
     for (size_t j = i + 1; j < result.data_.size(); j++) {
@@ -95,7 +110,6 @@ LUDecomposition Matrix::GetLU() const {
     }
   }
 
-  std::cout << (clock() - a) / 1000000. << std::endl;
   return LUDecomposition(result, P);
 }
 

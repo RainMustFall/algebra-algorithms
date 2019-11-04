@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dzmitry/CLionProjects/CMA/ldltdecomposition.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/ldltdecomposition.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/ludecomposition.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/ludecomposition.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/main.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/main.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/matrix.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/matrix.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/specialmatrix.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/specialmatrix.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/symmetricmatrix.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/symmetricmatrix.cpp.o"
-  "/home/dzmitry/CLionProjects/CMA/tridiagonalmatrix.cpp" "/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/tridiagonalmatrix.cpp.o"
+  "C:/Users/HP/CLionProjects/CMA/ldltdecomposition.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/ldltdecomposition.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/luAndLdlt.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/luAndLdlt.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/ludecomposition.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/ludecomposition.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/main.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/main.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/matrix.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/matrix.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/specialMatrixSpeedTest.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/specialMatrixSpeedTest.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/specialmatrix.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/specialmatrix.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/symmetricmatrix.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/symmetricmatrix.cpp.obj"
+  "C:/Users/HP/CLionProjects/CMA/tridiagonalmatrix.cpp" "C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMakeFiles/CMA.dir/tridiagonalmatrix.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

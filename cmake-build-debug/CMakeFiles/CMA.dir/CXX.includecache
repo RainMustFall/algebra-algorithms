@@ -6,33 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/dzmitry/CLionProjects/CMA/ldltdecomposition.h
-vector
--
+C:/Users/HP/CLionProjects/CMA/ludecomposition.h
 matrix.h
-/home/dzmitry/CLionProjects/CMA/matrix.h
-symmetricmatrix.h
-/home/dzmitry/CLionProjects/CMA/symmetricmatrix.h
+C:/Users/HP/CLionProjects/CMA/matrix.h
 
-/home/dzmitry/CLionProjects/CMA/ludecomposition.h
-matrix.h
-/home/dzmitry/CLionProjects/CMA/matrix.h
-
-/home/dzmitry/CLionProjects/CMA/main.cpp
+C:/Users/HP/CLionProjects/CMA/main.cpp
 iostream
 -
-specialmatrix.h
-/home/dzmitry/CLionProjects/CMA/specialmatrix.h
+random
+-
 ludecomposition.h
-/home/dzmitry/CLionProjects/CMA/ludecomposition.h
-symmetricmatrix.h
-/home/dzmitry/CLionProjects/CMA/symmetricmatrix.h
-ldltdecomposition.h
-/home/dzmitry/CLionProjects/CMA/ldltdecomposition.h
-tridiagonalmatrix.h
-/home/dzmitry/CLionProjects/CMA/tridiagonalmatrix.h
+C:/Users/HP/CLionProjects/CMA/ludecomposition.h
+matrix.h
+C:/Users/HP/CLionProjects/CMA/matrix.h
+specialmatrix.h
+C:/Users/HP/CLionProjects/CMA/specialmatrix.h
+specialMatrixSpeedTest.h
+C:/Users/HP/CLionProjects/CMA/specialMatrixSpeedTest.h
 
-/home/dzmitry/CLionProjects/CMA/matrix.h
+C:/Users/HP/CLionProjects/CMA/matrix.h
 iomanip
 -
 vector
@@ -42,15 +34,11 @@ fstream
 ctime
 -
 
-/home/dzmitry/CLionProjects/CMA/specialmatrix.h
-matrix.h
-/home/dzmitry/CLionProjects/CMA/matrix.h
+C:/Users/HP/CLionProjects/CMA/specialMatrixSpeedTest.h
+vector
+-
 
-/home/dzmitry/CLionProjects/CMA/symmetricmatrix.h
+C:/Users/HP/CLionProjects/CMA/specialmatrix.h
 matrix.h
-/home/dzmitry/CLionProjects/CMA/matrix.h
-
-/home/dzmitry/CLionProjects/CMA/tridiagonalmatrix.h
-matrix.h
-/home/dzmitry/CLionProjects/CMA/matrix.h
+C:/Users/HP/CLionProjects/CMA/matrix.h
 

@@ -102,7 +102,7 @@ void SymmetricMatrix::InitUpperHalf(size_t n, bool random) {
   for (size_t i = 0; i < n; i++) {
     data_[i].resize(n - i);
     for (size_t j = 0; j + i < n; j++) {
-      data_[i][j] = random ? rand() % 100 : 0;
+      data_[i][j] = random ? rand() : 0;
     }
   }
 }

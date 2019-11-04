@@ -8,122 +8,130 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dzmitry/CLionProjects/CMA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/HP/CLionProjects/CMA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/dzmitry/CLionProjects/CMA/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CMA">
-				<Option output="/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMA" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dzmitry/CLionProjects/CMA/cmake-build-debug"/>
+				<Option output="C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/CLionProjects/CMA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMA"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMA"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CMA/fast">
-				<Option output="/home/dzmitry/CLionProjects/CMA/cmake-build-debug/CMA" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dzmitry/CLionProjects/CMA/cmake-build-debug"/>
+				<Option output="C:/Users/HP/CLionProjects/CMA/cmake-build-debug/CMA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HP/CLionProjects/CMA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMA/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMA/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dzmitry/CLionProjects/CMA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/HP/CLionProjects/CMA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dzmitry/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HP/CLionProjects/CMA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/HP/CLionProjects/CMA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/ldltdecomposition.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/ldltdecomposition.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/ldltdecomposition.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/ldltdecomposition.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/ludecomposition.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/luAndLdlt.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/ludecomposition.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/luAndLdlt.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/main.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/ludecomposition.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/matrix.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/ludecomposition.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/matrix.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/main.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/specialmatrix.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/matrix.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/specialmatrix.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/matrix.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/symmetricmatrix.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/specialMatrixSpeedTest.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/symmetricmatrix.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/specialMatrixSpeedTest.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/tridiagonalmatrix.cpp">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/specialmatrix.cpp">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/tridiagonalmatrix.h">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/specialmatrix.h">
 			<Option target="CMA"/>
 		</Unit>
-		<Unit filename="/home/dzmitry/CLionProjects/CMA/CMakeLists.txt">
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/symmetricmatrix.cpp">
+			<Option target="CMA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/symmetricmatrix.h">
+			<Option target="CMA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/tridiagonalmatrix.cpp">
+			<Option target="CMA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/tridiagonalmatrix.h">
+			<Option target="CMA"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/CMA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
