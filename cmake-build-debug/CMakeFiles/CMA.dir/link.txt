@@ -1,3 +1,0 @@
-"E:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\CMA.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\CMA.dir/objects.a @CMakeFiles\CMA.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -O3 -Wall -Wextra -g   -Wl,--whole-archive CMakeFiles\CMA.dir/objects.a -Wl,--no-whole-archive  -o CMA.exe -Wl,--out-implib,libCMA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CMA.dir\linklibs.rsp
