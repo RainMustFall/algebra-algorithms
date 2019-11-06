@@ -3,8 +3,9 @@
 //
 
 #include <iostream>
-#include "matrix.h"
-#include "ludecomposition.h"
+
+#include "./matrix.h"
+#include "task_2/lu_decomposition.h"
 
 Matrix::Matrix(size_t n, bool random)
     : data_(matrix(n, std::vector<double>(n, 0))) {
@@ -77,7 +78,7 @@ Matrix& Matrix::operator*=(const Matrix& rhs) {
   return *this;
 }
 
-LUDecomposition Matrix::GetLU() const {
+LuDecomposition Matrix::GetLu() const {
   Matrix result = *this;
   std::vector<size_t> P(data_.size());
 
@@ -110,7 +111,7 @@ LUDecomposition Matrix::GetLU() const {
     }
   }
 
-  return LUDecomposition(result, P);
+  return LuDecomposition(result, P);
 }
 
 std::vector<double>& Matrix::operator[](size_t index) {

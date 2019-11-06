@@ -7,7 +7,7 @@
 
 #include <vector>
 
-namespace luAndLdlt {
+namespace lu_and_ldlt_speed_test {
 
 enum class OperationType {
   LU_USUAL,
@@ -18,8 +18,9 @@ enum class OperationType {
 double luUsual(size_t size, const std::vector<double>& v);
 double luSymmetric(size_t size, const std::vector<double>& v);
 double ldltSymmetric(size_t size, const std::vector<double>& v);
-void measureTime(size_t max_size, size_t step, const char* filename);
+void measureTime(size_t min_size, size_t max_size, size_t step,
+                 const char* filename);
 
-}  // namespace luAndLdlt
+}  // namespace lu_and_ldlt_speed_test
 
 #endif //CMA_LUANDLDLT_H

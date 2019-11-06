@@ -4,18 +4,18 @@
 
 #include <iostream>
 #include <map>
-#include "matrix.h"
-#include "ludecomposition.h"
-#include "symmetricmatrix.h"
-#include "ldltdecomposition.h"
-#include "luAndLdlt.h"
+#include "../matrix.h"
+#include "../Task_2/lu_decomposition.h"
+#include "symmetric_matrix.h"
+#include "ldlt_decomposition.h"
+#include "lu_and_ldlt_speed_test.h"
 
-namespace luAndLdlt {
+namespace lu_and_ldlt_speed_test {
 
 double luUsual(size_t size, const std::vector<double>& v) {
   Matrix m(size);
   auto time = clock();
-  auto lu = m.GetLU();
+  auto lu = m.GetLu();
 
   lu.SolveLinearSystem(v);
 
@@ -25,7 +25,7 @@ double luUsual(size_t size, const std::vector<double>& v) {
 double luSymmetric(size_t size, const std::vector<double>& v) {
   SymmetricMatrix m(size);
   auto time = clock();
-  auto lu = m.GetLU();
+  auto lu = m.GetLu();
 
   lu.SolveLinearSystem(v);
 
@@ -35,20 +35,21 @@ double luSymmetric(size_t size, const std::vector<double>& v) {
 double ldltSymmetric(size_t size, const std::vector<double>& v) {
   SymmetricMatrix m(size);
   auto time = clock();
-  auto lu = m.GetLDLt();
+  auto lu = m.GetLdlt();
 
   lu.SolveLinearSystem(v);
 
   return (clock() - time);
 }
 
-void measureTime(size_t max_size, size_t step, const char* filename) {
+void measureTime(size_t min_size, size_t max_size, size_t step,
+    const char* filename) {
   freopen(filename, "w", stdout);
 
   std::map<OperationType, std::vector<double>> time;
   std::vector<double> b;
 
-  for (size_t i = step; i <= max_size; i += step) {
+  for (size_t i = min_size; i <= max_size; i += step) {
     for (size_t j = 0; j < step; ++j) {
       b.push_back(rand());
     }
@@ -67,4 +68,4 @@ void measureTime(size_t max_size, size_t step, const char* filename) {
   }
 }
 
-}  // namespace luAndLdlt
+}  // namespace lu_and_ldlt_speed_test

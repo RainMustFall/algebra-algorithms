@@ -11,7 +11,7 @@
 #include <ctime>
 
 typedef std::vector<std::vector<double>> matrix;
-class LUDecomposition;
+class LuDecomposition;
 
 class Matrix {
  public:
@@ -27,7 +27,7 @@ class Matrix {
   std::vector<double>& operator[](size_t index);
   size_t Size() const;
 
-  virtual LUDecomposition GetLU() const;
+  virtual LuDecomposition GetLu() const;
 
   const matrix& GetData() const;
 

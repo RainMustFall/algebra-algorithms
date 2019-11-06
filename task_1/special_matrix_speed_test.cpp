@@ -5,14 +5,14 @@
 #include <iostream>
 #include <map>
 
-#include "specialMatrixSpeedTest.h"
-#include "matrix.h"
-#include "specialmatrix.h"
-#include "ludecomposition.h"
-#include "symmetricmatrix.h"
-#include "ldltdecomposition.h"
+#include "special_matrix_speed_test.h"
+#include "../matrix.h"
+#include "special_matrix.h"
+#include "../Task_2/lu_decomposition.h"
+#include "../task_3/symmetric_matrix.h"
+#include "../Task_3/ldlt_decomposition.h"
 
-namespace specialMatrixSpeedTest {
+namespace special_matrix_speed_test {
 
 double testTime(size_t size) {
   SpecialMatrix m(size);
@@ -38,4 +38,4 @@ void buildTimeList(size_t min_size, size_t max_size, size_t step,
   }
 }
 
-}  // namespace specialMatrixSpeedTest
+}  // namespace special_matrix_speed_test

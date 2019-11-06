@@ -7,12 +7,12 @@
 
 #include <vector>
 
-namespace specialMatrixSpeedTest {
+namespace special_matrix_speed_test {
 
 double testTime(size_t size);
 void buildTimeList(size_t min_size, size_t max_size, size_t step,
     const char* filename);
 
-}  // namespace specialMatrixSpeedTest
+}  // namespace special_matrix_speed_test
 
 #endif //CMA_SPECIALMATRIXSPEEDTEST_H
