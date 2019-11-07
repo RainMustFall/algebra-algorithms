@@ -21,8 +21,8 @@ void printLine(int length = 10) {
 }
 
 int main() {
-  freopen("matrices.in", "r", stdin);
-  std::mt19937 generator;
+  void(freopen("matrices.in", "r", stdin));
+  std::mt19937 generator(clock());
   std::uniform_real_distribution<> distribution(-1e-7, 1e-7);
 
   printLine();

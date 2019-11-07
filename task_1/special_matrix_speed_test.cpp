@@ -8,9 +8,9 @@
 #include "special_matrix_speed_test.h"
 #include "../matrix.h"
 #include "special_matrix.h"
-#include "../Task_2/lu_decomposition.h"
+#include "../task_2/lu_decomposition.h"
 #include "../task_3/symmetric_matrix.h"
-#include "../Task_3/ldlt_decomposition.h"
+#include "../task_3/ldlt_decomposition.h"
 
 namespace special_matrix_speed_test {
 

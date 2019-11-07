@@ -5,7 +5,7 @@
 #include <iostream>
 #include <map>
 #include "../matrix.h"
-#include "../Task_2/lu_decomposition.h"
+#include "../task_2/lu_decomposition.h"
 #include "symmetric_matrix.h"
 #include "ldlt_decomposition.h"
 #include "lu_and_ldlt_speed_test.h"

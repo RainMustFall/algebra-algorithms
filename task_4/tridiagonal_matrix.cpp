@@ -6,10 +6,10 @@
 #include "tridiagonal_matrix.h"
 
 TridiagonalMatrix::TridiagonalMatrix(size_t n, bool random)
-    : size_(n),
-      main_diagonal_(n),
-      above_diagonal_(n - 1),
-      below_diagonal_(n - 1) {
+        : size_(n),
+          main_diagonal_(n),
+          above_diagonal_(n - 1),
+          below_diagonal_(n - 1) {
   if (random) {
     for (size_t i = 0; i + 1 < n; i++) {
       main_diagonal_[i] = rand();
@@ -25,7 +25,7 @@ TridiagonalMatrix::TridiagonalMatrix(size_t n, bool random)
 }
 
 std::vector<double> TridiagonalMatrix::LinearSolve(
-    const std::vector<double>& b) {
+        const std::vector<double>& b) {
   std::vector<double> solution = b;
   std::vector<double> additional_diag(above_diagonal_.size() - 1, 0);
 
@@ -114,6 +114,7 @@ std::ostream& TridiagonalMatrix::Write(std::ostream& out) const {
 
   return out;
 }
+
 size_t TridiagonalMatrix::Size() const {
   return size_;
 }
